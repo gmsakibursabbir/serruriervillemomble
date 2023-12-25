@@ -373,6 +373,9 @@ textarea {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+    .navbar-brand img{
+        width: 70%;
+      }
   /* HERO */
   .hero-wrapper {
     padding: 20px 0;
@@ -389,13 +392,17 @@ textarea {
   }
   /* footer */
   .footer-content p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* HERO */
+  /* Header */
+  .navbar-brand img{
+    width: 80%;
+  }
+    /* HERO */
   .hero-wrapper {
     padding: 50px 0;
   }
